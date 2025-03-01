@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="contact" content="Page de contact">
+  <meta name="description" content="Cette page est la page d'accueil de la présentation du BUT informatique">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="/img/logo-IUT-Favicon.jpg">
+  <title>Page de contact</title>
+  <link rel="canonical" href="https://projet-web-groupe.mathyssansus.repl.co/contact.html">
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <header>
+    <div class="bloc-logo">
+      <div class="logo">
+        <img src="img/log-but-toulouse.jpg" class="taille-logo" alt="Logo du l'IUT de Toulouse">
+        <img src="img/logo-iut.jpg" class="taille-logo" alt="Logo de L'université Paul Sabatier">
+      </div>
+      <a href="light-contact.html" class="color-mod">Mode Claire</a>
+      <div class="logo">
+        <img src="img/logo-but-informatique.png" class="taille-logo"
+          alt="Logo représentant le BUT informatique en général">
+      </div>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="accueil.html">Accueil</a></li>
+        <li><a href="presentation.html">Présentation</a></li>
+        <li class="menu-deroulant">
+          <a>Les Compétences</a>
+          <ul class="sous-menu">
+            <li><a href="competence1.html">Compétence 1</a></li>
+            <li><a href="competence2.html">Compétence 2</a></li>
+            <li><a href="competence3.html">Compétence 3</a></li>
+            <li><a href="competence4.html">Compétence 4</a></li>
+            <li><a href="competence5.html">Compétence 5</a></li>
+            <li><a href="competence6.html">Compétence 6</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <h1 id="titre_contact">Nous contacter</h1>
+  <main class="corps">
+    <article class="partie1_contact">
+      <h2 class="titre_formulaire">Formulaire de contact</h2>
+      <div>
+        <div class="bloc" id="partie1A_contact">
+          <div class="partie1A1_contact">
+            <form method="get" id="formulaire">
+              <p class="formtxt">Prenom :</p>
+              <input class="reponse" type="text" name="prenom" placeholder="Jean">
+              <p class="formtxt">Nom :</p>
+              <input class="reponse" type="text" name="nom" placeholder="Dupont">
+              <p class="formtxt">Addresse mail :</p>
+              <input class="reponse" type="email" name="email_contact" placeholder="XXXXXXXXX@XXXXXXXX">
+            </form><br>
+            <button id="envoyer" type="button" name="Envoyer">Envoyer</button>
+          </div>
+          <div class="partie1A2_contact">
+            <p class="formtxt"><label>Message :</label><br></p>
+            <textarea name="message" id="message" rows="8" cols="50" placeholder="Entrer votre message"></textarea>
+          </div>
+        </div>
+      </div>
+    </article>
+    <div class="barre-separation"></div>
+    <article class="bloc" id="partie2_contact">
+      <h2 class="article-title">vide</h2>
+      <div class="imgcontact">
+        <img class="img1_contact" src="img/site-rangueil.png" alt="Photo de l'IUT">
+      </div>
+      <div class="partie2B_contact">
+        <p class="texte_contact">
+          IUT Paul Sabatier<br>
+          133 Route de Narbonne<br>
+          31400 TOULOUSE CEDEX 4
+        </p>
+
+        <div id="carte_iut">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d859.4258502661078!2d1.4649772685658609!3d43.57004076222109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aebc3f1271bb33%3A0x54dfd7df4c745117!2s133%20Av.%20de%20Rangueil%2C%2031400%20Toulouse!5e0!3m2!1sfr!2sfr!4v1701166788924!5m2!1sfr!2sfr"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+    </article>
+  </main>
+  <footer>
+    <div class="footer-liste-bloc">
+      <h3>Plan du site</h3>
+      <ul class="footer-liste">
+        <li><a href="accueil.html">Accueil</a></li>
+        <li><a href="presentation.html">Présentation</a></li>
+        <li><a href="competence1.html">Compétence 1</a></li>
+        <li><a href="competence2.html">Compétence 2</a></li>
+        <li><a href="competence3.html">Compétence 3</a></li>
+        <li><a href="competence4.html">Compétence 4</a></li>
+        <li><a href="competence5.html">Compétence 5</a></li>
+        <li><a href="competence6.html">Compétence 6</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <a href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees" target="blank" class="cnil-link">CNIL -
+      RGPD</a>
+    <div class="footer-liste-bloc">
+      <h3>Big Binary Company</h3>
+      <ul class="footer-liste name">
+        <li>Mathys SANSUS</li>
+        <li>Enzo DEHER</li>
+        <li>Florian PARIEL-ABADIE</li>
+        <li>Romain MIEGEMOLLE</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
